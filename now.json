@@ -3,7 +3,7 @@
   "name": "express",
   "builds": [
     {
-      "src": "*.js",
+      "src": "app.js",
       "use": "@now/node"
     }
   ]
