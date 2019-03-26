@@ -10,7 +10,7 @@ var AuthorSchema = new Schema(
     date_of_birth: { type: Date },
     date_of_death: { type: Date },
     }
-  );
+);
 
 // Virtual for author "full" name.
 AuthorSchema
