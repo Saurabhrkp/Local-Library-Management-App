@@ -33,8 +33,7 @@ addEventListener('fetch', function(event) {
 function precache() {
     return caches.open(CACHE).then(function (cache) {
         return cache.addAll([
-            '/images/Library Website - Mongoose_Express.png',
-            '../views/index.html'
+            './'
         ]);
     });
 }
